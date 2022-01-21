@@ -1,0 +1,27 @@
+{
+  "name": "webtokens",
+  "version": "1.0.0",
+  "description": "adout weeb oken and cookeis on server side and client side",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https//www/github.com/hamza4600"
+  },
+  "keywords": [
+    "Hamaz"
+  ],
+  "author": "hamza",
+  "license": "MIT"
+}

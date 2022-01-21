@@ -1,0 +1,60 @@
+// a basi c docker tutorial
+
+
+run the docker image differnt argumnets 
+docker run --name nodejs-image-demo -p 80:8080 -d your_dockerhub_username/nodejs-image-demo
+for me is below 
+ docker run --name hamaz4600 -p80:8080 -d hamza4600
+
+docker ps to see  backgroun image running  
+Docker containers cannot be used to store persistent data because they are designed to be restarted and recreated. The data in Docker infrastructure are generally stored in Docker volumes
+
+
+docker image -- help 
+show all options for docker 
+
+docker image 
+show all images for docker 
+
+docker ps 
+show running images docker 
+
+
+How to push docke file to docker hub
+
+make a docke image 
+
+docker image ls             // sell all images for docker 
+
+Tag a image with its image id 
+image tag id  nameof user/name of regestery we wanted 
+remove the previous image
+docker  rm previous
+docker push username/repo name 
+
+
+/// MOSTLY  DOCKER is used to repalce VM machine 
+light weight   get all the dependancies and we can now run it on any machine  we wanted 
+it vertilize the os  and get the hardware resources 
+we cas also download image of OS and get into it and use it as we wanted  
+
+
+gooogle console also provide us the free docker insatll in and use it as we wated 
+we can also  also download differnt versions of a image as we needed as a versions
+ we can also run websites and web apps as we wanted  
+ our requie OS  in linux bases machine 
+  
+  It is very light weight they share a same Linux base kernal    
+  all apps share same kernal 
+  DOCKER file           //is like snapshort of image along with depediencies 
+  IMAGE                 // real software running  
+  CONTAINER 
+
+docker build  -t myapp.             // buil app 
+docker run app          // run app
+
+
+
+
+with kubernatise we can controll Humbred of container with a single command 
+it  controll dockers    it is constainer orcastination tool 
