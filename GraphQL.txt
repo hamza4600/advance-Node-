@@ -1,0 +1,49 @@
+It is used to define api and get data from a API on client sidee and on server side 
+schema should be define 
+
+discuss basic concept of  GrapgQl and use cases of it in web app 
+is  used  for reading and muting Data  
+It provide a type system wher we define our schema  on load exact Data we need in our front end 
+in REST  request we get all data in a single page we often get a lot of data from different servers   
+that make more load on app and   servers
+
+if we need smal amount of Data we can,t 
+
+Query is main entry point  we can Data from it 
+
+we describe data 
+ ask for data 
+ get Predictable Result
+
+
+ used for APIs and server side 
+
+ install dependiencies 
+  npm i express express-graphql graphql
+  also save nodemon     to see chnages on server
+  
+   
+schema  define what Object can fectch  from server 
+resolver  add some code  to process  the request for greeting field the structure of resolve must match with schema  
+make exicute schema
+
+defien a route to fetch data from React Js and GraphQL 
+
+Here’s a List of Docker Commands
+    docker create   Creat a new container \
+    docker ps view  all running images 
+    docker info 
+    docker kill 
+    docker rm 
+    docker run – Runs a command in a new container.
+    docker start – Starts one or more stopped containers
+    docker stop – Stops one or more running containers
+    docker build – Builds an image form a Docker file
+    docker pull – Pulls an image or a repository from a registry
+    docker push – Pushes an image or a repository to a registry
+    docker export – Exports a container’s filesystem as a tar archive
+    docker exec – Runs a command in a run-time container
+    docker search – Searches the Docker Hub for images
+    docker attach – Attaches to a running container
+    docker commit – Creates a new image from a container’s changes
+
